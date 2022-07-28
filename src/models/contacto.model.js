@@ -1,13 +1,13 @@
 
 export class ContactoModel{ 
   nombre = '';
-  apellidos = '';
+  apellido = '';
   email = '';
   conectado = false;
 
-  constructor(nombre,apellidos,email,conectado) {
+  constructor(nombre,apellido,email,conectado) {
     this.nombre = nombre;
-    this.apellidos = apellidos;
+    this.apellido = apellido;
     this.email = email;
     this.conectado = conectado;
   }
